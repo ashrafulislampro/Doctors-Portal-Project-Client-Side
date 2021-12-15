@@ -1,0 +1,10 @@
+.header_text{
+          color: #3A4256;
+          font-weight: bold;
+}
+.btn{
+          background-color: #16D2BF;
+          color: white;
+          font-weight: 600;
+          cursor: pointer;
+}
