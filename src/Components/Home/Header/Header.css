@@ -1,20 +1,19 @@
-.header_container {
+ .header_container {
           height:950px;
           position:relative;
-          z-index: -2;
           background-image:url(../../../images/bg.png);
           background-size: cover;
           background-position: center center;
           margin-bottom: 150px;
       }
-      .header_container::after {
+    .header_container::after {
           height:950px;
           content:' ';
           position: absolute;
           top: 0;
-          width: 28.5%;
+          width: 20%;
           right: 0;
           z-index: -1;
           background-color: #3A4256;
       }
-      
+       

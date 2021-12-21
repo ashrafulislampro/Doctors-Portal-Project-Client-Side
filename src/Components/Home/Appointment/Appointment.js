@@ -1,7 +1,9 @@
 import React from "react";
 import "./Appointment.css";
 import doctors from "../../../images/doctor.png";
+
 const Appointment = () => {
+ 
   return (
     <section className="make-appointment">
      

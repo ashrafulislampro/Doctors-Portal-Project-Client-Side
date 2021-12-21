@@ -1,0 +1,13 @@
+.text-brand{
+          color: #1cc7c1;
+          font-size: 23px;
+          font-weight: bold;
+          margin-bottom : 15px;
+}
+.btn-brand{
+          width: 240px;
+          height: 42px;
+          background-image: linear-gradient(75deg, #19D3AE, #0fcfec);
+          text-transform: uppercase;
+          border-color: transparent;
+}

@@ -5,12 +5,10 @@ const Contacts = () => {
   const {
     register,
     handleSubmit,
-    watch,
-    formState: { errors },
   } = useForm();
   const onSubmit = (data) => console.log(data);
   return (
-    <section className="contact-section">
+    <section id="contact" className="contact-section">
       <div className="contact-container text-center">
         <h5
           className="py-5"
@@ -27,7 +25,8 @@ const Contacts = () => {
             className="form_input"
               name="name"
               type="text"
-              required={register("name")}
+              required
+              {...register("name", { required: true })}
               placeholder="Enter Your Name"
             />
             <br />
@@ -35,11 +34,14 @@ const Contacts = () => {
              className="form_input"
               name="email"
               type="email"
-              required={register("email")}
+              required
+             {...register("email", {required: true})}
               placeholder="Enter Email"
             />
             <br />
-            <textarea type="message" cols="86" rows="8" placeholder="Type Your Message"></textarea>
+            <textarea type="message" cols="86" rows="8" placeholder="Type Your Message"
+            {...register("message", {required: true})}
+            ></textarea>
             <br />
             <input className="submit" type="submit" />
           </form>

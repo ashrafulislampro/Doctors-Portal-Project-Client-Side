@@ -3,8 +3,18 @@
           font-weight: bold;
 }
 .btn{
-          background-color: #16D2BF;
+          background-image: linear-gradient(75deg, #19D3AE, #0fcfec);
+          text-transform: uppercase;
+          border-color: transparent;
           color: white;
           font-weight: 600;
           cursor: pointer;
+}
+#button{
+          background-image: linear-gradient(75deg, #19D3AE, #0fcfec);
+          text-transform: uppercase;
+          border-color: transparent;
+          color: white;
+          font-weight: 600;
+          cursor: pointer !important;
 }
